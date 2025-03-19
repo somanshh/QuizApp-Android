@@ -30,20 +30,9 @@ A modern quiz application built with Kotlin, Jetpack Compose, and Firebase Fires
 
    2. Open the project in Android Studio
 
-3. Add Firebase dependencies to your `build.gradle` files:
-- In project-level build.gradle, add:
-  ```gradle
-  classpath 'com.google.gms:google-services:4.3.15'
-  ```
-- In app-level build.gradle, add:
-  ```gradle
-  implementation 'com.google.firebase:firebase-firestore-ktx:24.5.0'
-  apply plugin: 'com.google.gms.google-services'
-  ```
+2. Sync your project with Gradle files
 
-4. Sync your project with Gradle files
-
-5. Build and run the application
+3. Build and run the application
 
 ## Tech Stack
 
