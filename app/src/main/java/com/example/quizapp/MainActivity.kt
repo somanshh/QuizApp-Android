@@ -20,11 +20,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.quizapp.model.QuizViewModel
 import com.example.quizapp.ui.theme.QuizAppTheme
-//import com.google.firebase.FirebaseApp
+import com.google.firebase.FirebaseApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Initialize Firebase
+        FirebaseApp.initializeApp(this)
 
         setContent {
             QuizAppTheme {
