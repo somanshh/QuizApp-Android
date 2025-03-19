@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCw7Cb-z2HaRQSZq-KAZ1dvXKs3wJI3S1k"
+          "current_key": "SECRET_KEY" // this file and key needs to be fetched again from the FIREBASE CONSOLE -> QuizApp Project -> edits. 
         }
       ],
       "services": {
