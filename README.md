@@ -2,30 +2,6 @@
 
 A modern quiz application built with Kotlin, Jetpack Compose, and Firebase Firestore. This app provides users with a simple and intuitive interface to test their knowledge on various topics.
 
-## Features
-
-- Clean, modern UI built with Jetpack Compose
-- Question data stored in Firebase Firestore
-- Navigation between welcome, quiz, and results screens
-- Real-time score tracking
-- Progress indicator showing question progress
-- Support for multiple-choice questions
-- Ability to play again after completing the quiz
-
-## Screenshots
-
-*[Place screenshots of your app here]*
-
-## Tech Stack
-
-- **Kotlin** - Primary programming language
-- **Jetpack Compose** - Modern UI toolkit for Android
-- **Firebase Firestore** - Cloud-based NoSQL database
-- **Navigation Compose** - For handling app navigation
-- **Material 3** - For implementing Material Design
-- **ViewModel & StateFlow** - For state management
-- **Coroutines** - For asynchronous operations
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -68,6 +44,17 @@ A modern quiz application built with Kotlin, Jetpack Compose, and Firebase Fires
 4. Sync your project with Gradle files
 
 5. Build and run the application
+
+## Tech Stack
+
+- **Kotlin** - Primary programming language
+- **Jetpack Compose** - Modern UI toolkit for Android
+- **Firebase Firestore** - Cloud-based NoSQL database
+- **Navigation Compose** - For handling app navigation
+- **Material 3** - For implementing Material Design
+- **ViewModel & StateFlow** - For state management
+- **Coroutines** - For asynchronous operations
+
 
 ## Database Structure
 
